@@ -54,3 +54,8 @@ pre code {
     white-space: nowrap;
     width: 70px;
 }
+
+/* Hide numbering */
+.summary .chapter b {
+    display: none;
+}
