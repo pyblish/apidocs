@@ -11,8 +11,6 @@ A collector creates [instances](pages/Instance.md).
 ```python
 import pyblish.api as pyblish
 
-
-@pyblish.log
 class MyCollector(pyblish.Collector):
     """Documentation goes here"""
 
