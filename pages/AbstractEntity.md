@@ -1,3 +1,5 @@
+## AbstractEntity
+
 Abstract base-class to [Instance](pages/Instance.md) and [Context](pages/Context.md).
 
 | Source     | Added
