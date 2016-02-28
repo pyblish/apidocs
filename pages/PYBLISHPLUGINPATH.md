@@ -1,4 +1,4 @@
-# PYBLISHPLUGINPATH
+## PYBLISHPLUGINPATH
 
 One or more paths from which to discover Pyblish plug-ins.
 
