@@ -14,6 +14,6 @@ Pyblish is a plug-in driven framework, everything it does it does through plug-i
 
 ### Mechanism
 
-For Pyblish to locate plug-ins, you either (1) register a plug-in directly via [register_plugin](/pages/register_plugin.md), (2) register a path via [PYBLISHPLUGINPATH](/pages/PYBLISHPLUGINPATH.md) or (3) [register_plugin_path](/pages/register_plugin_path.md).
+For Pyblish to locate plug-ins, you either (1) register a plug-in directly via [register_plugin](register_plugin.md), (2) register a path via [PYBLISHPLUGINPATH](PYBLISHPLUGINPATH.md) or (3) [register_plugin_path](register_plugin_path.md).
 
 Registering a plug-in directly (1) is useful during initial prototyping and for sharing your plug-in with others in a quick and effortless manner. You can simply post your plug-in on a forum, one could copy-paste it into his running session of Python and off we go. Registering directories (2)(3) makes for a power method of persisting plug-ins and to dynamically expose plug-in based on project, task and/or artist.
