@@ -1,3 +1,5 @@
+## Instance.append
+
 Append *content* to an [Instance](pages/Instance.md).
 
 <br>
