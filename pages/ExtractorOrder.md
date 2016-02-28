@@ -1,3 +1,5 @@
+## ExtractorOrder
+
 An extractor writes [instances](pages/instance.md) to disk.
 
 <br>
@@ -9,11 +11,10 @@ An extractor writes [instances](pages/instance.md) to disk.
 ```python
 import pyblish.api as pyblish
 
-class MyExtractor(pyblish.Extractor):
+class MyExtractor(pyblish.InstancePlugin):
     """Documentation goes here"""
-
-    families = ["myFamily"]
-    hosts = ["python"]
+    
+    order = pyblish.ExtractorOrder
 
     def process(self, instance):
         ...
