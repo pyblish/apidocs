@@ -28,14 +28,11 @@ input    |------ is valid? ----- yes ---->|  output
 ```python
 import pyblish.api as pyblish
 
-
-@pyblish.log
-class MyValidator(pyblish.Validator):
+class MyValidator(pyblish.InstancePlugin):
     """Documentation goes here"""
 
-    families = ["myFamily"]
-    hosts = ["nuke"]
+    order = pyblish.ValidatorOrder
 
     def process(self, instance):
-        self.log.info('something')
+        self.log.info("something")
 ```
