@@ -1,6 +1,4 @@
-A collector creates [instances](pages/Instance.md).
-
-> Also known as [Selector](pages/Collector.md)
+Collectors create [instances](pages/Instance.md).
 
 <br>
 <br>
@@ -9,15 +7,18 @@ A collector creates [instances](pages/Instance.md).
 ### Example
 
 ```python
+import os
 import pyblish.api as pyblish
 
-class MyCollector(pyblish.Collector):
-    """Documentation goes here"""
+class CollectInstances(pyblish.ContextPlugin):
+    """This plug-in identifies content and creates instances"""
 
-    families = ["myFamily"]
-    hosts = ["maya"]
+    order = pyblish.CollectorOrder
 
     def process(self, context):
-        instance = context.create_instance(name='MyInstance')
-        instance.data['family'] = 'myFamily'
+        for folder in os.listdir("."):
+            if not folder.endswith("_asset"):
+                continue
+            instance = context.create_instance(folder)
+            instance.data["family"] = "asset"
 ```
