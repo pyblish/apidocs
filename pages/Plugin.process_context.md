@@ -1,4 +1,4 @@
-Override this in a plug-in to process the [[Context]]
+Override this in a plug-in to process the [Context](pages/Context.md)
 
 <br>
 <br>
@@ -6,7 +6,7 @@ Override this in a plug-in to process the [[Context]]
 
 ### Introduction
 
-This method may be overridden in your plug-in subclasses to process the current [[Context]]. If overridden, Pyblish will execute this method at the opportune time.
+This method may be overridden in your plug-in subclasses to process the current [Context](pages/Context.md). If overridden, Pyblish will execute this method at the opportune time.
 
 <br>
 <br>

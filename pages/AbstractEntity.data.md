@@ -1,4 +1,4 @@
-Available to [[Instance]] and [[Context]] objects and used to pass data between library and plug-ins.
+Available to [Instance](pages/Instance.md) and [Context](pages/Context.md) objects and used to pass data between library and plug-ins.
 
 <br>
 <br>

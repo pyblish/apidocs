@@ -1,4 +1,4 @@
-Create [[Instances|Instance]] for a given [[Context]].
+Create [[Instances|Instance]] for a given [Context](pages/Context.md).
 
 <br>
 <br>
@@ -6,7 +6,7 @@ Create [[Instances|Instance]] for a given [[Context]].
 
 ### Introduction
 
-Create an instance and automatically make it a child of the calling context, returns the newly created [[Instance]].
+Create an instance and automatically make it a child of the calling context, returns the newly created [Instance](pages/Instance.md).
 
 ```python
 import pyblish.api

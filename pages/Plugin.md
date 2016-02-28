@@ -32,7 +32,7 @@ Plug-ins are snippets of code, discovered at run-time and defines the behaviour 
 
 | Output        | Method                                                      |
 |--------------:|:------------------------------------------------------------|
-|               | [[process|Plugin.process]]([[Instance]])
+|               | [[process|Plugin.process]]([Instance](pages/Instance.md))
 
 <br>
 <br>

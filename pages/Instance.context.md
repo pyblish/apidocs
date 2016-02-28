@@ -1,4 +1,4 @@
-Reference to parent [[Context]]
+Reference to parent [Context](pages/Context.md)
 
 <br>
 <br>

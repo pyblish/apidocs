@@ -1,4 +1,4 @@
-Append *content* to an [[Instance]].
+Append *content* to an [Instance](pages/Instance.md).
 
 <br>
 <br>
@@ -6,7 +6,7 @@ Append *content* to an [[Instance]].
 
 ### Introduction
 
-The content of an [[Instance]] is a reflection of the content in the resulting file(s) on disk.
+The content of an [Instance](pages/Instance.md) is a reflection of the content in the resulting file(s) on disk.
 
 An instance may contain both content and metacontent, added via `.append()` and `.data[]` respectively. You can think of the contents of an instance as the bytes for a file, whereas metacontent represents additional information about an instance, such as author and date modified.
 

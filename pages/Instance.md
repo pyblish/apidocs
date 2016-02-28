@@ -4,7 +4,7 @@ An instance is a *unit* of data.
 |------------|---------
 |[Link][]    | 0.1.6
 
-Inherits [[AbstractEntity]]
+Inherits [AbstractEntity](pages/AbstractEntity.md)
 
 [Link]: https://github.com/pyblish/pyblish/blob/6e9bfce6254ea56411af857afa49423a57f7b425/pyblish/plugin.py#L572
 
@@ -16,7 +16,7 @@ Inherits [[AbstractEntity]]
 
 | Output                           | Property                                       |
 |---------------------------------:|:-----------------------------------------------|
-| [[Context]] | [[context|Instance.context]]
+| [Context](pages/Context.md) | [[context|Instance.context]]
 
 <br>
 <br>
