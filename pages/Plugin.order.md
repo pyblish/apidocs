@@ -69,19 +69,19 @@ Each order have a special meaning to Pyblish.
 
 > 0-1
 
-Implies [Collector](pages/collector.md). It is run first, sometimes automatically, such as when launching the Pyblish QML graphical user interface.
+Implies [Collector](pages/Collector.md). It is run first, sometimes automatically, such as when launching the Pyblish QML graphical user interface.
 
 > 1-2
 
-Implies [[Validation|Validator]].
+Implies [Validation](pages/validator.md).
 
 > 2-3
 
-Implies [[Extraction|API Extractor]]. It *does not* run if any plug-in within range `1-2` has produced an error.
+Implies [Extraction](pages/Extractor.md). It *does not* run if any plug-in within range `1-2` has produced an error.
 
 > 3+
 
-Implies [[Conform|API Conform]]. Like [[Extraction|API Extractor]], it only runs if validation was successful.
+Implies [Integration](pages/Integration.md). Like [Extraction](pages/Extractor.md), it only runs if validation was successful.
 
 <br>
 <br>
