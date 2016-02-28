@@ -12,7 +12,7 @@ Collectors create [instances](pages/Instance.md).
 import os
 import pyblish.api as pyblish
 
-class CollectInstances(pyblish.ContextPlugin):
+class MyCollector(pyblish.ContextPlugin):
     """This plug-in identifies content and creates instances"""
 
     order = pyblish.CollectorOrder
