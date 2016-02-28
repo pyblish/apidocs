@@ -1,3 +1,5 @@
+## Instance
+
 An instance is a *unit* of data.
 
 | Source     | Added
