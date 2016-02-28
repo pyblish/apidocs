@@ -8,8 +8,6 @@ Supported families.
 
 Read about the architecture of plug-ins for a better understanding of the `families` attribute.
 
-- Plug-in System (todo)
-
 <br>
 <br>
 <br>
