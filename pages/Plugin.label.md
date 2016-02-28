@@ -1,3 +1,5 @@
+## Plugin.label
+
 Alternate name of plug-in when drawn.
 
 <br>

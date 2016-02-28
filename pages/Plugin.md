@@ -1,4 +1,4 @@
-## Plugins
+## Plugin
 
 Plug-ins are snippets of code, discovered at run-time and defines the behaviour of Pyblish.
 

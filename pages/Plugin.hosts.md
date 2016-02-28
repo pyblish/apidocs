@@ -1,3 +1,5 @@
+## Plugin.hosts
+
 Supported hosts.
 
 <br>

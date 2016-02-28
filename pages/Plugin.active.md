@@ -1,3 +1,5 @@
+## Plugin.active
+
 A hint about whether or not to trigger the plug-in.
 
 <br>
