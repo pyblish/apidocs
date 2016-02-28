@@ -16,7 +16,7 @@ Inherits [AbstractEntity](pages/AbstractEntity.md)
 
 | Output        | Method                                                      |
 |--------------:|:------------------------------------------------------------|
-|       Instance| [[.create_instance|Context.create_instance]](str, **kwargs)
+|       Instance| [.create_instance](pages/Context.create_instance.md)(str, **kwargs)
 
 4 functions inherited from [AbstractEntity](pages/AbstractEntity.md)
 
