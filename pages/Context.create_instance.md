@@ -1,4 +1,4 @@
-Create [[Instances|Instance]] for a given [Context](pages/Context.md).
+Create [Instances](pages/Instance.md) for a given [Context](pages/Context.md).
 
 <br>
 <br>
