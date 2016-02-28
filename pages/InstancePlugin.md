@@ -2,6 +2,14 @@
 
 Process once per [Instance](instance.md).
 
+| Source     | Added
+|------------|---------
+|[Link][]    | 1.3.0
+
+Inherits [Plugin](Plugin.md)
+
+[Link]: https://github.com/pyblish/pyblish-base/blob/f695fad94b995915495b4123c503f24d3419429a/pyblish/plugin.py#L350
+
 <br>
 <br>
 <br>
