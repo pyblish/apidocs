@@ -25,21 +25,3 @@ Plug-ins are snippets of code, discovered at run-time and defines the behaviour 
 | [order](Plugin.order.md)                 | float
 | [optional](Plugin.optional.md)           | bool
 | [requires](Plugin.requires.md)           | str
-
-<br>
-<br>
-<br>
-
-### Public Functions
-
-| Output        | Method                                                      |
-|--------------:|:------------------------------------------------------------|
-|               | [process](Plugin.process.md)([Instance](Instance.md))
-
-<br>
-<br>
-<br>
-
-### Introduction
-
-A plug-in represents an action to be performed on [Instances](Instance.md) supported by any of it's [families](Plugin.families.md).
