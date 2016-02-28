@@ -9,5 +9,6 @@ Reference to parent [Context](Context.md)
 ### Examples
 
 ```python
-instance.context.data["user"] = "Marcus"
+context = instance.context
+context.data["user"] = "Marcus"
 ```
