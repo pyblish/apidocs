@@ -9,6 +9,12 @@
 * Environment Variables
    * [PYBLISHPLUGINPATH](pages/PYBLISHPLUGINPATH.md)
 
+* Ordering
+   * [CollectorOrder](pages/CollectorOrder.md)
+   * [ValidatorOrder](pages/ValidatorOrder.md)
+   * [ExtractorOrder](pages/ExtractorOrder.md)
+   * [IntegratorOrder](pages/IntegratorOrder.md)
+
 * API
    * [AbstractEntity](pages/AbstractEntity.md)
        * [.data](pages/AbstractEntity.data.md)
@@ -31,9 +37,3 @@
        * [.process](pages/Plugin.process.md)
    * [discover](pages/discover.md)
    * [sort](pages/sort.md)
-
-* Ordering
-   * [CollectorOrder](pages/CollectorOrder.md)
-   * [ValidatorOrder](pages/ValidatorOrder.md)
-   * [ExtractorOrder](pages/ExtractorOrder.md)
-   * [IntegratorOrder](pages/IntegratorOrder.md)
