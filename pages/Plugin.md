@@ -14,15 +14,15 @@ Plug-ins are snippets of code, discovered at run-time and defines the behaviour 
 
 | property                                       | type
 |:-----------------------------------------------|:-----
-| [[hosts|Plugin.hosts]]                         | list
-| [[families|Plugin.families]]                   | list
-| [[label|Plugin.label]]                         | str
-| [[active|Plugin.active]]                       | bool
-| [[version|Plugin.version]]                     | tuple
-| [[actions|Plugin.actions]]                     | list
-| [[order|Plugin.order]]                         | float
-| [[optional|Plugin.optional]]                   | bool
-| [[requires|Plugin.requires]]                   | str
+| [hosts](pages/Plugin.hosts.md)                 | list
+| [families](pages/Plugin.families.md)           | list
+| [label](pages/Plugin.label.md)                 | str
+| [active](pages/Plugin.active.md)               | bool
+| [version](pages/Plugin.version.md)             | tuple
+| [actions](pages/Plugin.actions.md)             | list
+| [order](pages/Plugin.order.md)                 | float
+| [optional](pages/Plugin.optional.md)           | bool
+| [requires](pages/Plugin.requires.md)           | str
 
 <br>
 <br>
@@ -32,7 +32,7 @@ Plug-ins are snippets of code, discovered at run-time and defines the behaviour 
 
 | Output        | Method                                                      |
 |--------------:|:------------------------------------------------------------|
-|               | [[process|Plugin.process]]([Instance](pages/Instance.md))
+|               | [process](pages/Plugin.process.md)([Instance](pages/Instance.md))
 
 <br>
 <br>
@@ -40,4 +40,4 @@ Plug-ins are snippets of code, discovered at run-time and defines the behaviour 
 
 ### Introduction
 
-A plug-in represents an action to be performed on [[Instances|Instance]] supported by any of it's [[families|Plugin.families]].
+A plug-in represents an action to be performed on [Instances](pages/Instance.md) supported by any of it's [families](pages/Plugin.families.md).
