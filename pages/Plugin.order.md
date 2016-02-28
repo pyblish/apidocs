@@ -69,7 +69,7 @@ Each order have a special meaning to Pyblish.
 
 > 0-1
 
-Implies [[Selection|API Selector]]. It is run first, sometimes implicitly, such as when launching the Pyblish QML graphical user interface.
+Implies [Collector](pages/collector.md). It is run first, sometimes automatically, such as when launching the Pyblish QML graphical user interface.
 
 > 1-2
 
