@@ -4,6 +4,8 @@
 * Data
    * [result](pages/result.md)
    * [Events](pages/Events.md)
+* Environment Variables
+   * [PYBLISHPLUGINPATH](pages/PYBLISHPLUGINPATH.md)
 * API
    * [AbstractEntity](pages/AbstractEntity.md)
        * [.data](pages/AbstractEntity.data.md)
