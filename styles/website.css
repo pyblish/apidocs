@@ -2,7 +2,7 @@ html {
     font-size: 55%;
 }
 
-table {
+.book .book-body .page-wrapper .page-inner section.normal table {
     /* Shrink tables to their actual sizes */
     width: auto;
 }
