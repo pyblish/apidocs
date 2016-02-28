@@ -25,22 +25,27 @@ pre code {
 
 /* Make sidebar more like GitHub */
 
-.book .book-summary {
-    width: 250px;
-    border: none;
-    background: transparent;
-}
-
-.book .book-summary ul.summary {
-    position: static;
-    top: 0;
-    left: 10px;
-    right: 10px;
-    border-radius: 5px;
-    border: 1px solid rgb(230, 230, 230);
-    padding: 5px;
-    margin: 10px;
-}
+    nav {
+        top: 30px;
+        position: absolute;
+    }
+    
+    .book .book-summary {
+        width: 250px;
+        border: none;
+        background: transparent;
+    }
+    
+    .book .book-summary ul.summary {
+        position: static;
+        top: 0;
+        left: 10px;
+        right: 10px;
+        border-radius: 5px;
+        border: 1px solid rgb(230, 230, 230);
+        padding: 5px;
+        margin: 10px;
+    }
 
 
 /* Make main body and sidebar the full length of the page; 1 scrollbar */
