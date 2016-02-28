@@ -35,7 +35,7 @@ class ValidateAfter(pyblish.api.Validator):
    order = 1.5
 ```
 
-As the default order for a [[Validator|Validator]] is `1`, setting it to `1.5` means that this particular subclass will run once all validators still at the default order have finished.
+As the default order for a [Validator](pages/Validator.md) is `1`, setting it to `1.5` means that this particular subclass will run once all validators still at the default order have finished.
 
 To protect yourself against changes to the inherited order, it is recommended that you *offset* the order as opposed to setting it to an absolute value.
 
