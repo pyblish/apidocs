@@ -33,7 +33,7 @@
    * [sort](pages/sort.md)
 
 * Ordering
-   * [Collector](pages/Collector.md)
-   * [Validator](pages/Validator.md)
-   * [Extractor](pages/Extractor.md)
-   * [Integrator](pages/Integrator.md)
+   * [CollectorOrder](pages/CollectorOrder.md)
+   * [ValidatorOrder](pages/ValidatorOrder.md)
+   * [ExtractorOrder](pages/ExtractorOrder.md)
+   * [IntegratorOrder](pages/IntegratorOrder.md)
