@@ -20,7 +20,6 @@ Inherits [Plugin](Plugin.md)
 |--------------:|:------------------------------------------------------------|
 |               | [process](Plugin.process.md)([Instance](Instance.md))
 
-
 <br>
 <br>
 <br>
