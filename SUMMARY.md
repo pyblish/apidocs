@@ -1,11 +1,14 @@
 # Summary
 
 * [Introduction](README.md)
+
 * Data
    * [result](pages/result.md)
    * [Events](pages/Events.md)
+
 * Environment Variables
    * [PYBLISHPLUGINPATH](pages/PYBLISHPLUGINPATH.md)
+
 * API
    * [AbstractEntity](pages/AbstractEntity.md)
        * [.data](pages/AbstractEntity.data.md)
@@ -26,11 +29,11 @@
        * [.actions](pages/Plugin.actions.md)
        * [.version](pages/Plugin.version.md)
        * [.process](pages/Plugin.process.md)
+   * [discover](pages/discover.md)
+   * [sort](pages/sort.md)
+
+* Ordering
    * [Collector](pages/Collector.md)
    * [Validator](pages/Validator.md)
    * [Extractor](pages/Extractor.md)
    * [Integrator](pages/Integrator.md)
-   * [discover](pages/discover.md)
-   * [sort](pages/sort.md)
-* Ordering
-
