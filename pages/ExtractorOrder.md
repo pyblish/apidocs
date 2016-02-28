@@ -12,7 +12,7 @@ An extractor writes [instances](pages/instance.md) to disk.
 import pyblish.api as pyblish
 
 class MyExtractor(pyblish.InstancePlugin):
-    """Documentation goes here"""
+    """Extract to disk"""
     
     order = pyblish.ExtractorOrder
 
