@@ -1,4 +1,4 @@
-Append [[Instances|Instance]] to a [Context](pages/Context.md).
+Append [Instances](pages/Instance.md) to a [Context](pages/Context.md).
 
 <br>
 <br>
