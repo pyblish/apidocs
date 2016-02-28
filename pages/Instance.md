@@ -26,10 +26,10 @@ Inherits [AbstractEntity](pages/AbstractEntity.md)
 
 | Output        | Method                                                      |
 |--------------:|:------------------------------------------------------------|
-|               | [[append|Instance.append]](object)
-|               | [[remove|Instance.remove]](object)
+|               | [append](pages/Instance.append.md)(object)
+|               | [remove](pages/Instance.remove.md)(object)
 
-4 functions inherited from [[AbstractEntity|]]
+4 functions inherited from [AbstractEntity](pages/AbstractEntity.md)
 
 <br>
 <br>
