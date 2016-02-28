@@ -1,3 +1,5 @@
+## Context.append
+
 Append [Instances](pages/Instance.md) to a [Context](pages/Context.md).
 
 <br>
