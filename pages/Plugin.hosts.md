@@ -25,6 +25,6 @@ class MyPlugin(...):
 
 **See also**
 
-- [Pyblish X][x]
+- [Pyblish][p]
 
-[x]: https://github.com/pyblish/pyblish-x/wiki/Modularisation#organisation
+[p]: https://github.com/pyblish/pyblish/wiki/Modularisation#organisation
