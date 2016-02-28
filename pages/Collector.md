@@ -1,6 +1,6 @@
-A collector creates [[instances|Instance]].
+A collector creates [instances](pages/Instance.md).
 
-> Also known as [[Selector|Collector]]
+> Also known as [Selector](pages/Collector.md)
 
 <br>
 <br>
