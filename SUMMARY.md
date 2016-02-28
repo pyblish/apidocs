@@ -35,5 +35,7 @@
        * [.actions](pages/Plugin.actions.md)
        * [.version](pages/Plugin.version.md)
        * [.process](pages/Plugin.process.md)
+   * [ContextPlugin](pages/ContextPlugin.md)
+   * [InstancePlugin](pages/InstancePlugin.md)
    * [discover](pages/discover.md)
    * [sort](pages/sort.md)
