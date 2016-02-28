@@ -32,3 +32,5 @@
    * [Integrator](pages/Integrator.md)
    * [discover](pages/discover.md)
    * [sort](pages/sort.md)
+* Ordering
+
