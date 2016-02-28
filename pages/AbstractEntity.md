@@ -14,6 +14,6 @@ Inherits [list](https://docs.python.org/2/tutorial/datastructures.html#more-on-l
 
 ### Properties
 
-| Output        | Method                                                      |
+| Output        | Property                                                    |
 |--------------:|:------------------------------------------------------------|
 | dict          | [.data](pages/.data.md)
