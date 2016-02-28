@@ -23,6 +23,33 @@ pre code {
     font-size: 0.9em;
 }
 
+/* Make sidebar more like GitHub */
+
+.book .book-summary {
+    border: none;
+    background: transparent;
+}
+
+.book .book-summary ul.summary {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    right: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 230, 230);
+    padding: 5px;
+}
+
+
+/* Make main body and sidebar the full length of the page; 1 scrollbar */
+.book .book-body, .book .book-body .body-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-y: visible; 
+    right: 0;
+}
+
 .book .book-body .page-wrapper .page-inner section.normal blockquote {
     color: #AAA;
     background: none;
