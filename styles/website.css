@@ -26,6 +26,7 @@ pre code {
 /* Make sidebar more like GitHub */
 
 .book .book-summary {
+    width: 250px;
     border: none;
     background: transparent;
 }
