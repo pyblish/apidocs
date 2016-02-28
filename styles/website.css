@@ -31,7 +31,7 @@ pre code {
 }
 
 .book .book-summary ul.summary {
-    position: absolute;
+    position: static;
     top: 0;
     left: 10px;
     right: 10px;
