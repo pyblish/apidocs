@@ -1,6 +1,6 @@
 ## CollectorOrder
 
-Collectors create [instances](pages/Instance.md).
+Collectors create [instances](Instance.md).
 
 <br>
 <br>

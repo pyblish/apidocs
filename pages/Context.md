@@ -6,7 +6,7 @@ The context represents the world.
 |------------|---------
 |[Link][]    | 0.1.6
 
-Inherits [AbstractEntity](pages/AbstractEntity.md)
+Inherits [AbstractEntity](AbstractEntity.md)
 
 [Link]: https://github.com/pyblish/pyblish/blob/6e9bfce6254ea56411af857afa49423a57f7b425/pyblish/plugin.py#L542
 
@@ -18,9 +18,9 @@ Inherits [AbstractEntity](pages/AbstractEntity.md)
 
 | Output        | Method                                                      |
 |--------------:|:------------------------------------------------------------|
-|       Instance| [.create_instance](pages/Context.create_instance.md)(str, **kwargs)
+|       Instance| [.create_instance](Context.create_instance.md)(str, **kwargs)
 
-4 functions inherited from [AbstractEntity](pages/AbstractEntity.md)
+4 functions inherited from [AbstractEntity](AbstractEntity.md)
 
 <br>
 <br>
@@ -28,7 +28,7 @@ Inherits [AbstractEntity](pages/AbstractEntity.md)
 
 ### Description
 
-The context encapsulates one or more [Instance](pages/Instance.md)'s along with information about the current execution environment, such as the current user and time of day. Publishing is performed by iterating over the members of a context.
+The context encapsulates one or more [Instance](Instance.md)'s along with information about the current execution environment, such as the current user and time of day. Publishing is performed by iterating over the members of a context.
 
 ```python
 # Psuedo-code

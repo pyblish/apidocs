@@ -8,7 +8,7 @@ The primary processing mechanism of Pyblish.
 
 ### Introduction
 
-This method may be overridden in your plug-in subclasses to process the current [Context](pages/Context.md).
+This method may be overridden in your plug-in subclasses to process the current [Context](Context.md).
 
 <br>
 <br>

@@ -16,15 +16,15 @@ Plug-ins are snippets of code, discovered at run-time and defines the behaviour 
 
 | property                                       | type
 |:-----------------------------------------------|:-----
-| [hosts](pages/Plugin.hosts.md)                 | list
-| [families](pages/Plugin.families.md)           | list
-| [label](pages/Plugin.label.md)                 | str
-| [active](pages/Plugin.active.md)               | bool
-| [version](pages/Plugin.version.md)             | tuple
-| [actions](pages/Plugin.actions.md)             | list
-| [order](pages/Plugin.order.md)                 | float
-| [optional](pages/Plugin.optional.md)           | bool
-| [requires](pages/Plugin.requires.md)           | str
+| [hosts](Plugin.hosts.md)                 | list
+| [families](Plugin.families.md)           | list
+| [label](Plugin.label.md)                 | str
+| [active](Plugin.active.md)               | bool
+| [version](Plugin.version.md)             | tuple
+| [actions](Plugin.actions.md)             | list
+| [order](Plugin.order.md)                 | float
+| [optional](Plugin.optional.md)           | bool
+| [requires](Plugin.requires.md)           | str
 
 <br>
 <br>
@@ -34,7 +34,7 @@ Plug-ins are snippets of code, discovered at run-time and defines the behaviour 
 
 | Output        | Method                                                      |
 |--------------:|:------------------------------------------------------------|
-|               | [process](pages/Plugin.process.md)([Instance](pages/Instance.md))
+|               | [process](Plugin.process.md)([Instance](Instance.md))
 
 <br>
 <br>
@@ -42,4 +42,4 @@ Plug-ins are snippets of code, discovered at run-time and defines the behaviour 
 
 ### Introduction
 
-A plug-in represents an action to be performed on [Instances](pages/Instance.md) supported by any of it's [families](pages/Plugin.families.md).
+A plug-in represents an action to be performed on [Instances](Instance.md) supported by any of it's [families](Plugin.families.md).

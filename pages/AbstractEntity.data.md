@@ -1,6 +1,6 @@
 ## AbstractEntity.data
 
-Available to [Instance](pages/Instance.md) and [Context](pages/Context.md) objects and used to pass data between library and plug-ins.
+Available to [Instance](Instance.md) and [Context](Context.md) objects and used to pass data between library and plug-ins.
 
 <br>
 <br>
@@ -8,7 +8,7 @@ Available to [Instance](pages/Instance.md) and [Context](pages/Context.md) objec
 
 ### Introduction
 
-Data is primarily gathered during [Collection](pages/Collector.md) and used during subsequent plug-ins, such as [Validation](pages/Validator.md) and [Extraction](pages/Extractor.md). Data can also be used as a means of messaging across plug-ins.
+Data is primarily gathered during [Collection](Collector.md) and used during subsequent plug-ins, such as [Validation](Validator.md) and [Extraction](Extractor.md). Data can also be used as a means of messaging across plug-ins.
 
 - See [Tale of Three APIs](https://github.com/pyblish/pyblish/wiki/Tale-of-Three-APIs) for more information.
 

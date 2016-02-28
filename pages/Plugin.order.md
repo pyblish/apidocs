@@ -37,7 +37,7 @@ class ValidateAfter(pyblish.api.Validator):
    order = 1.5
 ```
 
-As the default order for a [Validator](pages/Validator.md) is `1`, setting it to `1.5` means that this particular subclass will run once all validators still at the default order have finished.
+As the default order for a [Validator](Validator.md) is `1`, setting it to `1.5` means that this particular subclass will run once all validators still at the default order have finished.
 
 To protect yourself against changes to the inherited order, it is recommended that you *offset* the order as opposed to setting it to an absolute value.
 
@@ -71,19 +71,19 @@ Each order have a special meaning to Pyblish.
 
 > 0-1
 
-Implies [Collector](pages/Collector.md). It is run first, sometimes automatically, such as when launching the Pyblish QML graphical user interface.
+Implies [Collector](Collector.md). It is run first, sometimes automatically, such as when launching the Pyblish QML graphical user interface.
 
 > 1-2
 
-Implies [Validation](pages/validator.md).
+Implies [Validation](validator.md).
 
 > 2-3
 
-Implies [Extraction](pages/Extractor.md). It *does not* run if any plug-in within range `1-2` has produced an error.
+Implies [Extraction](Extractor.md). It *does not* run if any plug-in within range `1-2` has produced an error.
 
 > 3+
 
-Implies [Integration](pages/Integration.md). Like [Extraction](pages/Extractor.md), it only runs if validation was successful.
+Implies [Integration](Integration.md). Like [Extraction](Extractor.md), it only runs if validation was successful.
 
 <br>
 <br>

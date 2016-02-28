@@ -6,7 +6,7 @@ An instance is a *unit* of data.
 |------------|---------
 |[Link][]    | 0.1.6
 
-Inherits [AbstractEntity](pages/AbstractEntity.md)
+Inherits [AbstractEntity](AbstractEntity.md)
 
 [Link]: https://github.com/pyblish/pyblish/blob/6e9bfce6254ea56411af857afa49423a57f7b425/pyblish/plugin.py#L572
 
@@ -18,7 +18,7 @@ Inherits [AbstractEntity](pages/AbstractEntity.md)
 
 | Output                           | Property                                       |
 |---------------------------------:|:-----------------------------------------------|
-| [Context](pages/Context.md) | [context](pages/Instance.context.md)
+| [Context](Context.md) | [context](Instance.context.md)
 
 <br>
 <br>
@@ -28,10 +28,10 @@ Inherits [AbstractEntity](pages/AbstractEntity.md)
 
 | Output        | Method                                                      |
 |--------------:|:------------------------------------------------------------|
-|               | [append](pages/Instance.append.md)(object)
-|               | [remove](pages/Instance.remove.md)(object)
+|               | [append](Instance.append.md)(object)
+|               | [remove](Instance.remove.md)(object)
 
-4 functions inherited from [AbstractEntity](pages/AbstractEntity.md)
+4 functions inherited from [AbstractEntity](AbstractEntity.md)
 
 <br>
 <br>

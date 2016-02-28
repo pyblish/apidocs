@@ -1,6 +1,6 @@
 ## ExtractorOrder
 
-An extractor writes [instances](pages/instance.md) to disk.
+An extractor writes [instances](instance.md) to disk.
 
 <br>
 <br>

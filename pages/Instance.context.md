@@ -1,6 +1,6 @@
 ## Instance.context
 
-Reference to parent [Context](pages/Context.md)
+Reference to parent [Context](Context.md)
 
 <br>
 <br>

@@ -1,6 +1,6 @@
 ## Context.append
 
-Append [Instances](pages/Instance.md) to a [Context](pages/Context.md).
+Append [Instances](Instance.md) to a [Context](Context.md).
 
 <br>
 <br>

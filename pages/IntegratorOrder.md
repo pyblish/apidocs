@@ -1,6 +1,6 @@
 ## IntegratorOrder
 
-A integrator integrates [instances](pages/instance.md) with a pipeline.
+A integrator integrates [instances](instance.md) with a pipeline.
 
 <br>
 <br>

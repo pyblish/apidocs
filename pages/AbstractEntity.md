@@ -1,6 +1,6 @@
 ## AbstractEntity
 
-Abstract base-class to [Instance](pages/Instance.md) and [Context](pages/Context.md).
+Abstract base-class to [Instance](Instance.md) and [Context](Context.md).
 
 | Source     | Added
 |------------|---------
@@ -18,4 +18,4 @@ Inherits [list](https://docs.python.org/2/tutorial/datastructures.html#more-on-l
 
 | Output        | Property                                                    |
 |--------------:|:------------------------------------------------------------|
-| dict          | [.data](pages/.data.md)
+| dict          | [.data](.data.md)

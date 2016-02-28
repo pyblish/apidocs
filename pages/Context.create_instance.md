@@ -1,6 +1,6 @@
 ## Context.create_instance
 
-Create [Instances](pages/Instance.md) for a given [Context](pages/Context.md).
+Create [Instances](Instance.md) for a given [Context](Context.md).
 
 <br>
 <br>
@@ -8,7 +8,7 @@ Create [Instances](pages/Instance.md) for a given [Context](pages/Context.md).
 
 ### Introduction
 
-Create an instance and automatically make it a child of the calling context, returns the newly created [Instance](pages/Instance.md).
+Create an instance and automatically make it a child of the calling context, returns the newly created [Instance](Instance.md).
 
 ```python
 import pyblish.api

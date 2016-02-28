@@ -1,6 +1,6 @@
 ## ValidatorOrder
 
-A validator determines whether or not an [instance](pages/instance.md) is valid.
+A validator determines whether or not an [instance](instance.md) is valid.
 
 <br>
 <br>
