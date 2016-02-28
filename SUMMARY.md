@@ -14,7 +14,7 @@
        * [.append](pages/Instance.append.md)
        * [.context](pages/Instance.context.md)
    * [Plugin](pages/Plugin.md)
-       * [.hosts|](pages/Plugin.hosts.md)
+       * [.hosts](pages/Plugin.hosts.md)
        * [.families](pages/Plugin.families.md)
        * [.label](pages/Plugin.label.md)
        * [.active](pages/Plugin.active.md)
