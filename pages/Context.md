@@ -1,3 +1,5 @@
+## Context
+
 The context represents the world.
 
 | Source     | Added
