@@ -59,3 +59,10 @@ pre code {
 .summary .chapter b {
     display: none;
 }
+
+/* Use inactive elements as categories */
+.book .book-summary ul.summary li span {
+    cursor: auto;
+    opacity: 1;
+    font-weight: bold;
+}
