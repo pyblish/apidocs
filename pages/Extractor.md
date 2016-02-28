@@ -1,4 +1,4 @@
-An extractor writes [[instances|Instance]] to disk.
+An extractor writes [instances](pages/instance.md) to disk.
 
 <br>
 <br>
@@ -9,8 +9,6 @@ An extractor writes [[instances|Instance]] to disk.
 ```python
 import pyblish.api as pyblish
 
-
-@pyblish.log
 class MyExtractor(pyblish.Extractor):
     """Documentation goes here"""
 
