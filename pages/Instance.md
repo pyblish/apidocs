@@ -16,7 +16,7 @@ Inherits [AbstractEntity](pages/AbstractEntity.md)
 
 | Output                           | Property                                       |
 |---------------------------------:|:-----------------------------------------------|
-| [Context](pages/Context.md) | [[context|Instance.context]]
+| [Context](pages/Context.md) | [context](pages/Instance.context.md)
 
 <br>
 <br>
