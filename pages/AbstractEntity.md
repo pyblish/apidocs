@@ -12,9 +12,8 @@ Inherits [list](https://docs.python.org/2/tutorial/datastructures.html#more-on-l
 <br>
 <br>
 
-### Public Functions
+### Properties
 
 | Output        | Method                                                      |
 |--------------:|:------------------------------------------------------------|
-| None          | None
-
+| dict          | [.data](pages/.data.md)
