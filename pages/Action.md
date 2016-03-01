@@ -24,6 +24,17 @@ Inherits [Plugin](Plugin.md)
 <br>
 <br>
 
+### Properties
+
+| property                                       | type
+|:-----------------------------------------------|:-----
+| [icon](Action.icon.md)                   | str
+| [on](Action.on.md)                       | str
+
+<br>
+<br>
+<br>
+
 ### Usage
 
 Attach any functionality to a plug-in and tailor it to a particular state; like an action only available via a failed validator, or a successful extraction, or just all-round functionality associated with a particular plug-in.
