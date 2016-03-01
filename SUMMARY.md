@@ -39,5 +39,7 @@
        * [.process](pages/ContextPlugin.process.md)
    * [InstancePlugin](pages/InstancePlugin.md)
        * [.process](pages/InstancePlugin.process.md)
+   * [Action](pages/Action.md)
+       * [.process](pages/Action.process.md)
    * [discover](pages/discover.md)
    * [sort](pages/sort.md)
