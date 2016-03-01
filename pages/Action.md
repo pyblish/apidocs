@@ -4,11 +4,11 @@ Process once, with [Context](context.md) and [Plugin](plugin.md) as input.
 
 | Source     | Added
 |------------|---------
-|[Link][]    | 1.3.0
+|[Link][]    | 1.2.0
 
 Inherits [Plugin](Plugin.md)
 
-[Link]: https://github.com/pyblish/pyblish-base/blob/f695fad94b995915495b4123c503f24d3419429a/pyblish/plugin.py#L350
+[Link]: https://github.com/pyblish/pyblish-base/commit/ac83f2a94bbde95bc2f6c4000d7c50e36a3d3b5f
 
 <br>
 <br>
