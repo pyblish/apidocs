@@ -45,7 +45,11 @@ for result in context.data["results"]:
 
 ### Full schema
 
-- https://github.com/pyblish/pyblish-rpc/blob/master/pyblish_rpc/schema/result.json
+The consistency of this dictionary is enforced via the  [pyblish-rpc](https://github.com/pyblish/pyblish-rpc) project.
+
+- [Schema](https://github.com/pyblish/pyblish-rpc/blob/master/pyblish_rpc/schema/result.json)
+
+<br>
 
 **Snapshot from [1e034](https://github.com/pyblish/pyblish-rpc/blob/6a075199c50c5c6a99e110505117c7d0d6d1e034/pyblish_rpc/schema/result.json)**
 
