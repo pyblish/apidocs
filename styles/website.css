@@ -23,6 +23,11 @@ code {
     display: none;
 }
 
+pre {
+    border: 1px solid #EFEFEF;
+    line-height: 1.1;
+}
+
 pre code {
     color: rgb(51, 51, 51);
 }
