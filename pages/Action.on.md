@@ -19,8 +19,6 @@ Sometimes an Action is not relevant until a certain precondition has been met. F
 ```python
 import pyblish.api
 
-class FailedAction(pyblish.api.Action):
-    label = "Failure action"
-    icon = "close"
+class MyAction(pyblish.api.Action):
     on = "failed"
 ```
