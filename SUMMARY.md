@@ -41,5 +41,7 @@
        * [.process](pages/InstancePlugin.process.md)
    * [Action](pages/Action.md)
        * [.process](pages/Action.process.md)
+       * [.icon](pages/Action.icon.md)
+       * [.on](pages/Action.on.md)
    * [discover](pages/discover.md)
    * [sort](pages/sort.md)
