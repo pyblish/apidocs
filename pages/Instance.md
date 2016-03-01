@@ -126,7 +126,7 @@ Each file on your file-system refers to data in your disk. If you copy a file an
 
 You can confirm this by keeping an eye on the disk usage before and after you make the copy. It increases.
 
-On the other hand, if you create what is known as a "hard link"* to this file, you will also end up with two files. But this time, the two different files will refer to *the same set of data*.
+On the other hand, if you create what is known as a "hard link" to this file, you will also end up with two files. But this time, the two different files will refer to *the same set of data*.
 
 Thus, no matter how many hard links you make, you will never spend any more disk space that what is required to store the handle to the file (a few bytes at most).
 
