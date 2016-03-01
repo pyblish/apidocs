@@ -13,3 +13,14 @@ Associate an [FontAwesome][ai] icon with an action. Choose from the library of a
 - [FontAwesome Library][ai]
 
 [ai]: http://fortawesome.github.io/Font-Awesome/icons
+
+<br>
+<br>
+<br>
+
+### Example
+
+```python
+class MyAction(pyblish.api.Action):
+    icon = "close"
+```
