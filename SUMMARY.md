@@ -43,5 +43,7 @@
        * [.process](pages/Action.process.md)
        * [.icon](pages/Action.icon.md)
        * [.on](pages/Action.on.md)
+   * [Category](pages/Category.md)
+   * [Separator](pages/Separator.md)
    * [discover](pages/discover.md)
    * [sort](pages/sort.md)
