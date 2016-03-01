@@ -22,4 +22,19 @@ import pyblish.api
 class MyAction(pyblish.api.Action):
     def process(self):
         print("Running action")
+
+
+class ActionWithContext(pyblish.api.Action):
+    def process(self, context):
+        print("Running action with context")
+
+
+class ActionWithPlugin(pyblish.api.Action):
+    def process(self, plugin):
+        print("Running action with plugin")
+
+
+class ActionWithContextAndPlugin(pyblish.api.Action):
+    def process(self, context, plugin):
+        print("Running action with context and plug-in")
 ```
