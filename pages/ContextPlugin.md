@@ -18,7 +18,7 @@ Inherits [Plugin](Plugin.md)
 
 | Output        | Method                                                      |
 |--------------:|:------------------------------------------------------------|
-|               | [process](ContextPlugin.process.md)([context](Context.md))
+|               | [`process`](ContextPlugin.process.md)`(`[`context`](Context.md)`)`
 
 <br>
 <br>
