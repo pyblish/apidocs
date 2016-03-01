@@ -10,4 +10,4 @@ A visual separator for the parent menu of [Actions](Action.md).
 
 | Output        | Method                                                      |
 |--------------:|:------------------------------------------------------------|
-|               | `__init__(name)`
+|               | \_\_init\_\_(name)
