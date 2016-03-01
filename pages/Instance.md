@@ -106,7 +106,7 @@ The word "instance" generally refers to "an occurence" of something. This *somet
 
 Let's take an example.
 
-```bash
+```python
 # Copy & Paste                     |            # Hard Link
  _______        _______            |             _______        _______   
 |      |\      |      |\           |            |      |\      |      |\  
