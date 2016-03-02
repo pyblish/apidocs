@@ -19,3 +19,5 @@ class MyExtractor(pyblish.InstancePlugin):
     def process(self, instance):
         ...
 ```
+
+<div class="modified-date">{{ file.mtime }}</div>
