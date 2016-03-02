@@ -24,6 +24,10 @@ code {
     display: none;
 }
 
+ul.summary > li.divider {
+    display: none;
+}
+
 pre {
     border: 1px solid #EFEFEF;
     line-height: 1.1;
