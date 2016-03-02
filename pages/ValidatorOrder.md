@@ -36,3 +36,5 @@ class MyValidator(pyblish.InstancePlugin):
     def process(self, instance):
         self.log.info("something")
 ```
+
+<div class="modified-date">{{ file.mtime }}</div>
