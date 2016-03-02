@@ -1,0 +1,125 @@
+html {
+    font-size: 55%;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table {
+    /* Shrink tables to their actual sizes */
+    width: auto;
+}
+
+/* Bug-fix
+   Lists have 0 margin-bottom, and p has 0 margin-top,
+   resulting in contact between the two. */
+.book .book-body .page-wrapper .page-inner section.normal ol,
+.book .book-body .page-wrapper .page-inner section.normal ul {
+    margin-bottom: .85em;
+}
+
+code {
+    color: #c7254e;
+}
+
+/* Hide link to GitBook */
+.book .book-summary ul.summary li a.gitbook-link {
+    display: none;
+}
+
+ul.summary > li.divider {
+    display: none;
+}
+
+pre {
+    border: 1px solid #EFEFEF;
+    line-height: 1.1;
+}
+
+pre code {
+    color: rgb(51, 51, 51);
+}
+
+.book .book-summary ul.summary li a {
+    padding: 4px 10px;
+    font-size: 0.9em;
+}
+
+/* Make sidebar more like GitHub */
+
+    nav {
+        top: 30px;
+        position: absolute;
+    }
+    
+    .book .book-summary {
+        width: 250px;
+        border: none;
+        background: transparent;
+    }
+    
+    .book .book-summary ul.summary {
+        position: static;
+        top: 0;
+        left: 10px;
+        right: 10px;
+        border-radius: 5px;
+        border: 1px solid rgb(230, 230, 230);
+        padding: 5px;
+        margin: 10px;
+    }
+
+    ul.summary > li.chapter {
+        padding-top: 10px;
+    }
+
+
+/* Make main body and sidebar the full length of the page; 1 scrollbar */
+.book .book-body, .book .book-body .body-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-y: visible; 
+    right: 0;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal blockquote {
+    color: #AAA;
+    background: none;
+    border-left: 5px solid #F1F1F1;
+    padding-left: 8px;
+}
+
+.modified-date {
+    color: #ddd;
+    text-align: right;
+    padding-top: 50px;
+    font-size: 0.8em;
+}
+
+#github {
+    display: none;
+}
+
+.versions-select div {
+    text-align: right;
+}
+
+.versions-select select {
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-user-select: none;
+    padding: 5px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70px;
+}
+
+/* Hide numbering */
+.summary .chapter b {
+    display: none;
+}
+
+/* Use inactive elements as categories */
+.book .book-summary ul.summary li span {
+    cursor: auto;
+    opacity: 1;
+    font-weight: bold;
+}
