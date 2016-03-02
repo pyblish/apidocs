@@ -87,3 +87,5 @@ assert "hostname" in context.data is True
 context.data.pop("hostname")
 assert "hostname" in context.data is False
 ```
+
+<div class="modified-date">{{ file.mtime }}</div>
