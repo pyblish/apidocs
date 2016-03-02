@@ -24,3 +24,5 @@ class MyCollector(pyblish.ContextPlugin):
             instance = context.create_instance(folder)
             instance.data["family"] = "asset"
 ```
+
+<div class="modified-date">{{ file.mtime }}</div>
