@@ -31,10 +31,11 @@ ul.summary > li.divider {
 pre {
     border: 1px solid #EFEFEF;
     line-height: 1.1;
-}
-
-pre code {
-    color: rgb(51, 51, 51);
+    
+    code {
+        // color: rgb(51, 51, 51);
+        color: blue;
+    }
 }
 
 .book .book-summary ul.summary li a {
