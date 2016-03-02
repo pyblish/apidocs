@@ -15,3 +15,5 @@ import pyblish.api
 context = pyblish.api.Context()
 instance = context.create_instance(name="MyInstance")
 ```
+
+<div class="modified-date">{{ file.mtime }}</div>
