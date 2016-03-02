@@ -45,3 +45,5 @@ def on_instance_toggled(instance, new_value, old_value):
 
 pyblish.api.register_callback("instanceToggled", on_instance_toggled)
 ```
+
+<div class="modified-date">{{ file.mtime }}</div>
