@@ -9,3 +9,5 @@ This section contains a listing of available classes, functions and attributes v
 >>> pyblish.api.discover()
 ["<class 'collect_current_date.CollectCurrentDate>"]
 ```
+
+<div class="modified-date">{{ file.mtime }}</div>
