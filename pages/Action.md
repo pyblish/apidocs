@@ -262,4 +262,6 @@ import pyblish_maya
 pyblish_maya.show()
 ```
 
+<div class="modified-date">{{ file.mtime }}</div>
+
 [1]: http://fortawesome.github.io/Font-Awesome/icons/
