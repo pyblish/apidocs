@@ -64,7 +64,13 @@ context = pyblish.Context()
 import pyblish.api as pyblish
 context = pyblish.Context()
 instanceA = context.create_instance(name="MyInstanceA")
-instanceB = pyblish.Instance(name="MyInstanceA", parent=context)
+instanceB = pyblish.Instance(name="MyInstanceB", parent=context)
+
+print("The context contains these instances:")
+for instance in context:
+    print(instance)
+# MyInstanceA
+# MyInstanceB
 ```
 
 ```python
@@ -78,6 +84,6 @@ context = pyblish.Context()
 data = context.data
 context.data["hostname"] = "localhost"
 assert "hostname" in context.data is True
-context.pop("hostname")
+context.data.pop("hostname")
 assert "hostname" in context.data is False
 ```
