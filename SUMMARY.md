@@ -15,7 +15,17 @@
    * [ExtractorOrder](pages/ExtractorOrder.md)
    * [IntegratorOrder](pages/IntegratorOrder.md)
 
-* API
+* pyblish.util
+   * [publish](pages/util.publish.md)
+   * [collect](pages/util.collect.md)
+   * [validate](pages/util.validate.md)
+   * [extract](pages/util.extract.md)
+   * [integrate](pages/util.integrate.md)
+
+* pyblish.cli
+   * [publish](pages/cli.publish.md)
+
+* pyblish.api
    * [AbstractEntity](pages/AbstractEntity.md)
        * [.data](pages/AbstractEntity.data.md)
    * [Context](pages/Context.md)
