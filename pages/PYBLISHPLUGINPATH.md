@@ -21,3 +21,5 @@ import os
 os.environ["PYBLISHPLUGINPATH"] = r"c:\pyblish_plugins"
 os.environ["PYBLISHPLUGINPATH"] = "/home/pyblish_plugins"
 ```
+
+<div class="modified-date">{{ file.mtime }}</div>
