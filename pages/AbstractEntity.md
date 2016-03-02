@@ -19,3 +19,6 @@ Inherits [list](https://docs.python.org/2/tutorial/datastructures.html#more-on-l
 | Output        | Property                                                    |
 |--------------:|:------------------------------------------------------------|
 | dict          | [.data](.data.md)
+
+
+<div class="modified-date">{{ file.mtime }}</div>
