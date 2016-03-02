@@ -24,3 +24,5 @@ class MyIntegrator(pyblish.InstancePlugin):
                 **instance.data)
         )
 ```
+
+<div class="modified-date">{{ file.mtime }}</div>
