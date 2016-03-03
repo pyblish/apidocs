@@ -21,8 +21,7 @@ From [Communicating with the host](https://pyblish.gitbooks.io/developer-guide/c
 ```python
 import os
 import xmlrpclib
-port = os.environ["PYBLISH_CLIENT_PORT"]
-proxy = xmlrpclib.ServerProxy("http://127.0.0.1:%s/pyblish" % port)
+proxy = xmlrpclib.ServerProxy("http://127.0.0.1:9001/pyblish")
 proxy.discover()
 # {...}
 ```
