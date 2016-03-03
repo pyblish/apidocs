@@ -2,7 +2,7 @@
 
 Run collection via Python.
 
-This function runs plug-ins of `CollectionOrder` and then stops. This is useful for getting hold of a populated [Context](Context.md)
+This function runs plug-ins of [CollectionOrder](CollectionOrder.md) and then stops. This is useful for getting hold of a populated [Context](Context.md)
 
 | Source     | Added
 |------------|---------
