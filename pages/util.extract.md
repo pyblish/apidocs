@@ -37,3 +37,5 @@ import pyblish.util
 context = pyblish.util.collect()
 pyblish.util.extract(context)
 ```
+
+<div class="modified-date">{{ file.mtime }}</div>
