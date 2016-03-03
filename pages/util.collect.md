@@ -36,3 +36,5 @@ This function runs plug-ins of [CollectionOrder](CollectionOrder.md) and then st
 import pyblish.util
 context = pyblish.util.collect()
 ```
+
+<div class="modified-date">{{ file.mtime }}</div>
