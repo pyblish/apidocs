@@ -36,3 +36,5 @@ This function runs all currently discoverable plug-ins and is especially useful 
 import pyblish.util
 context = pyblish.util.publish()
 ```
+
+<div class="modified-date">{{ file.mtime }}</div>
