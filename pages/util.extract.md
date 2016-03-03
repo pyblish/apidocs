@@ -2,7 +2,7 @@
 
 Run extraction-only via Python.
 
-This function runs plug-ins of [ExtractionOrder](ExtractionOrder.md) and then stops. This is useful for getting hold of an extracted [Context](Context.md), without first validating it, with [results](result.md).
+This function runs plug-ins of [ExtractionOrder](ExtractionOrder.md) and then stops. This is useful for getting hold of an extracted [Context](Context.md), bypassing validation, with [results](result.md).
 
 | Source     | Added
 |------------|---------
@@ -29,5 +29,5 @@ This function runs plug-ins of [ExtractionOrder](ExtractionOrder.md) and then st
 ```python
 import pyblish.util
 context = pyblish.util.collect()
-pyblish.util.validate(context)
+pyblish.util.extract(context)
 ```
