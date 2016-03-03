@@ -2,14 +2,4 @@
 
 Welcome to the API documentation for Pyblish.
 
-This section contains a listing of available classes, functions and attributes.
-
-- `pyblish.api` - Public API
-- `pyblish.util` - Scripting interface
-
-```python
->>> # Example
->>> import pyblish.api
->>> pyblish.api.discover()
-["<class 'collect_current_date.CollectCurrentDate>"]
-```
+Choose a version of the library you would like to explore to the left.
