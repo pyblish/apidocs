@@ -58,3 +58,4 @@
    * [Separator](pages/Separator.md)
    * [discover](pages/discover.md)
    * [sort](pages/sort.md)
+   * [format_filename](pages/format_filename.md)
