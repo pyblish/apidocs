@@ -8,6 +8,7 @@
 
 * Environment Variables
    * [PYBLISHPLUGINPATH](pages/PYBLISHPLUGINPATH.md)
+   * [PYBLISH_CLIENT_PORT](pages/PYBLISH_CLIENT_PORT.md)
 
 * Ordering
    * [CollectorOrder](pages/CollectorOrder.md)
