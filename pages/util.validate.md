@@ -2,7 +2,7 @@
 
 Run validation-only via Python.
 
-This function runs plug-ins of `ValidationOrder` and then stops. This is useful for getting hold of a validated [Context](Context.md) with [results](result.md).
+This function runs plug-ins of [ValidationOrder](ValidationOrder.md) and then stops. This is useful for getting hold of a validated [Context](Context.md) with [results](result.md).
 
 | Source     | Added
 |------------|---------
