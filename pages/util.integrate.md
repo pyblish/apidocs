@@ -29,5 +29,5 @@ This function runs plug-ins of [IntegrationOrder](IntegrationOrder.md) and then 
 ```python
 import pyblish.util
 context = pyblish.util.collect()
-pyblish.util.extract(context)
+pyblish.util.integrate(context)
 ```
