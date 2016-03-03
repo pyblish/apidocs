@@ -12,5 +12,5 @@ This function runs all currently discoverable plug-ins and is especially useful 
 
 ```python
 import pyblish.util
-pyblish.util.publish()
+context = pyblish.util.publish()
 ```
