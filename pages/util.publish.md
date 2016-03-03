@@ -18,7 +18,7 @@ This function runs all currently discoverable plug-ins and is especially useful 
 
 | Output        | Method                                                      |
 |--------------:|:------------------------------------------------------------|
-| [Context](Context.md)    | [publish](ContextPlugin.process.md)([context](Context.md)=None, [plugins](Plugin.md)=None)
+| [Context](Context.md)    | publish([context](Context.md)=None, [plugins](Plugin.md)=None)
 
 <br>
 <br>
