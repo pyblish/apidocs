@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
 
+* [Plug-in System](pages/PluginSystem.md)
+
 * Data
    * [result](pages/result.md)
    * [Events](pages/Events.md)
