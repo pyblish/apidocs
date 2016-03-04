@@ -91,7 +91,7 @@ class Validate(pyblish.api.InstancePlugin):
         pyblish.api.Separator,
     ]
 
-    def process(self, context, plugin):
+    def process(self, instance):
         """The Context and parent Plug-in are available via dependency injection"""
         self.log.info("Standard log messages apply here.")
         raise Exception("Exceptions too.")
