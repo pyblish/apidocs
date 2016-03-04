@@ -77,12 +77,13 @@ class OpenInExplorer(pyblish.api.Action):
     on = "failed"  # This action is only available on a failed plug-in
     icon = "hand-o-up"  # Icon from Awesome Icon
     
-    def process(self, context):
+    def process(self, context, plugin):
         import subprocess
         subprocess.call("start .", shell=True)  # Launch explorer at the cwd
 
 
-class Validate(pyblish.api.Validator):
+class Validate(pyblish.api.InstancePlugin):
+    order = pyblish.api.ValidatorOrder
     actions = [
         # Order of items is preserved
         pyblish.api.Category("My Actions"),
@@ -112,7 +113,7 @@ class ContextAction(pyblish.api.Action):
 class FailingAction(pyblish.api.Action):
     label = "Failing action"
 
-    def process(self):
+    def process(self, context, plugin):
         self.log.info("About to fail..")
         raise Exception("I failed")
 
@@ -120,7 +121,7 @@ class FailingAction(pyblish.api.Action):
 class LongRunningAction(pyblish.api.Action):
     label = "Long-running action"
 
-    def process(self):
+    def process(self, context, plugin):
         self.log.info("Sleeping for 2 seconds..")
         time.sleep(2)
         self.log.info("Ah, that's better")
@@ -130,14 +131,14 @@ class IconAction(pyblish.api.Action):
     label = "Icon action"
     icon = "crop"
 
-    def process(self):
+    def process(self, context, plugin):
         self.log.info("I have an icon")
 
 
 class PluginAction(pyblish.api.Action):
     label = "Plugin action"
 
-    def process(self, plugin):
+    def process(self, context, plugin):
         self.log.info("I have access to my parent plug-in")
         self.log.info("Which is %s" % plugin.id)
 
@@ -146,7 +147,7 @@ class LaunchExplorerAction(pyblish.api.Action):
     label = "Open in Explorer"
     icon = "folder-open"
 
-    def process(self, context):
+    def process(self, context, plugin):
         import os
         import subprocess
 
@@ -161,7 +162,7 @@ class ProcessedAction(pyblish.api.Action):
     icon = "check"
     on = "processed"
 
-    def process(self):
+    def process(self, context, plugin):
         self.log.info("I am only available on a successful plug-in")
 
 
@@ -176,7 +177,7 @@ class SucceededAction(pyblish.api.Action):
     icon = "check"
     on = "succeeded"
 
-    def process(self):
+    def process(self, context, plugin):
         self.log.info("I am only available on a successful plug-in")
 
 
@@ -189,7 +190,8 @@ class InactiveAction(pyblish.api.Action):
     active = False
 
 
-class PluginWithActions(pyblish.api.Validator):
+class PluginWithActions(pyblish.api.InstancePlugin):
+    order = pyblish.api.ValidatorOrder
     optional = True
     actions = [
         pyblish.api.Category("General"),
@@ -208,7 +210,7 @@ class PluginWithActions(pyblish.api.Validator):
         InactiveAction,
     ]
 
-    def process(self):
+    def process(self, instance):
         self.log.info("Ran PluginWithActions")
 ```
 
