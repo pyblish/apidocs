@@ -15,7 +15,7 @@ There are three ways in which a plug-in is associated with a particular set of d
 1. By host
 1. By family
 
-Availability is determined by registering a given plug-in to Pyblish, for example by calling [register_plugin_path()][1]. Once a plug-in is made available, it must also match the currently running host.
+Availability is determined by registering a given plug-in to Pyblish, for example by calling [register_plugin_path()](register_plugin_path.md). Once a plug-in is made available, it must also match the currently running host.
 
 ```python
 class MyPlugin(...):
@@ -31,7 +31,7 @@ class MyPlugin(...):
 
 **See also**
 
-- [Plugin.hosts][2]
+- [Plugin.hosts](Plugin.hosts.md)
 
 
 <br>
@@ -52,9 +52,9 @@ These data members are included.
 **Example**
 
 ```python
->>> import pyblish.util
->>> context = pyblish.util.select()
->>> print context.data["currentFile"]
+import pyblish.util
+context = pyblish.util.collect()
+print context.data["currentFile"]
 ```
 
 [1]: https://github.com/pyblish/pyblish.api/wiki/register_plugin_path
