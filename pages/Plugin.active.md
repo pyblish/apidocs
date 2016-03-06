@@ -15,3 +15,12 @@ This attribute provides the Pyblish run-time with hint meaning "don't run". Unde
 <br>
 
 ### Example
+
+```python
+import pyblish.api
+
+class MyCollector(pyblish.api.ContextPlugin):
+    active = False
+```
+
+<div class="modified-date">{{ file.mtime }}</div>
