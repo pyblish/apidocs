@@ -16,7 +16,7 @@ Read about the architecture of plug-ins for a better understanding of the `hosts
 <br>
 <br>
 
-### Implementation
+### Example
 
 Each integration provides support for a given host, for detailed information about plug-ins in a particular host, see its corresponding documentation.
 
@@ -24,9 +24,3 @@ Each integration provides support for a given host, for detailed information abo
 class MyPlugin(...):
    hosts = ["maya"]
 ```
-
-**See also**
-
-- [Pyblish][p]
-
-[p]: https://github.com/pyblish/pyblish/wiki/Modularisation#organisation
