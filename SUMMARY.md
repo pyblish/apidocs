@@ -1,33 +1,26 @@
 # Summary
 
 * [Introduction](README.md)
-
 * [Plug-in System](pages/PluginSystem.md)
-
 * Data
    * [result](pages/result.md)
    * [Events](pages/Events.md)
-
 * Environment Variables
    * [PYBLISHPLUGINPATH](pages/PYBLISHPLUGINPATH.md)
    * [PYBLISH_CLIENT_PORT](pages/PYBLISH_CLIENT_PORT.md)
-
 * Ordering
    * [CollectorOrder](pages/CollectorOrder.md)
    * [ValidatorOrder](pages/ValidatorOrder.md)
    * [ExtractorOrder](pages/ExtractorOrder.md)
    * [IntegratorOrder](pages/IntegratorOrder.md)
-
 * pyblish.util
    * [publish](pages/util.publish.md)
    * [collect](pages/util.collect.md)
    * [validate](pages/util.validate.md)
    * [extract](pages/util.extract.md)
    * [integrate](pages/util.integrate.md)
-
 * pyblish.cli
    * [publish](pages/cli.publish.md)
-
 * pyblish.api
    * [AbstractEntity](pages/AbstractEntity.md)
        * [.data](pages/AbstractEntity.data.md)
@@ -47,7 +40,6 @@
        * [.requires](pages/Plugin.requires.md)
        * [.actions](pages/Plugin.actions.md)
        * [.version](pages/Plugin.version.md)
-       * [.process](pages/Plugin.process.md)
    * [ContextPlugin](pages/ContextPlugin.md)
        * [.process](pages/ContextPlugin.process.md)
    * [InstancePlugin](pages/InstancePlugin.md)
@@ -61,3 +53,4 @@
    * [discover](pages/discover.md)
    * [sort](pages/sort.md)
    * [format_filename](pages/format_filename.md)
+
