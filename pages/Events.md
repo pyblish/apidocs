@@ -20,7 +20,7 @@ This is a listing of default events in Pyblish.
 | Event              | Arguments                            | Description
 |:-------------------|:-------------------------------------|:------------
 | `instanceToggled`  | `instance, new_value, old_value` | An Instance was toggled in the GUI
-| `pluginToggled`    | `instance, new_value, old_value` | A Plug-in was toggled in the GUI
+| `pluginToggled`    | `plugin, new_value, old_value` | A Plug-in was toggled in the GUI
 
 <br>
 <br>
