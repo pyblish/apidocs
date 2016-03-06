@@ -10,4 +10,19 @@ This section contains a listing of available classes, functions and attributes v
 ["<class 'collect_current_date.CollectCurrentDate>"]
 ```
 
+<br>
+<br>
+<br>
+
+### Introduction
+
+Use this API documentation as reference for specific parts of Pyblish.
+
+If you encounter a problem with this guide, either..
+
+1. Post a comment by hovering a paragraph (right here!) and clicking the `+` button to the right.
+2. Let us know on [the forums](http://forums.pyblish.com)
+3. Submit an issue [on GitHub](https://github.com/pyblish/apidocs).
+4. Fix it yourself, but submitting [a pull-request](https://github.com/pyblish/apidocs).
+
 <div class="modified-date">{{ file.mtime }}</div>
