@@ -28,6 +28,8 @@ This is a listing of default events in Pyblish.
 
 ### Examples
 
+Print status once publishing has finished.
+
 ```python
 import pyblish.api
 
@@ -37,6 +39,9 @@ def on_published(context):
 
 pyblish.api.register_callback("published", on_published)
 ```
+
+Print in the event of a user toggling an instance in a GUI.
+
 ```python
 import pyblish.api
 
