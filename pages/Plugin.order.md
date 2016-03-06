@@ -18,7 +18,7 @@ Extractor: 2
 Conform: 3
 ```
 
-Sorting is performed via the [[sort]] function and works similar to this.
+Sorting is performed via the [sort](sort.md) function and works similar to this.
 
 ```python
 plugins.sort(key=lambda p: p.order)
@@ -33,7 +33,7 @@ plugins.sort(key=lambda p: p.order)
 By incrementing the order, you can offset how they are sorted and executed.
 
 ```python
-class ValidateAfter(pyblish.api.Validator):
+class ValidateAfter(pyblish.api.InstancePlugin):
    order = 1.5
 ```
 
@@ -42,8 +42,8 @@ As the default order for a [Validator](Validator.md) is `1`, setting it to `1.5`
 To protect yourself against changes to the inherited order, it is recommended that you *offset* the order as opposed to setting it to an absolute value.
 
 ```python
-class ValidateFirst(pyblish.api.Validator):
-   order = pyblish.api.Validator.order + 0.5
+class ValidateFirst(pyblish.api.InstancePlugin):
+   order = pyblish.api.ValidatorOrder + 0.5
 ```
 
 **Example**
@@ -51,14 +51,14 @@ class ValidateFirst(pyblish.api.Validator):
 Here's an example of three plug-ins of the same superclass, set to run one after the other.
 
 ```python
-class ValidateFirst(pyblish.api.Validator):
-   order = pyblish.api.Validator.order + 0
+class ValidateFirst(pyblish.api.InstancePlugin):
+   order = pyblish.api.ValidatorOrder + 0
 
-class ValidateSecond(pyblish.api.Validator):
-   order = pyblish.api.Validator.order + 0.1
+class ValidateSecond(pyblish.api.InstancePlugin):
+   order = pyblish.api.ValidatorOrder + 0.1
 
-class ValidateThird(pyblish.api.Validator):
-   order = pyblish.api.Validator.order + 0.2
+class ValidateThird(pyblish.api.InstancePlugin):
+   order = pyblish.api.ValidatorOrder + 0.2
 ```
 
 <br>
@@ -94,7 +94,7 @@ Implies [Integration](Integration.md). Like [Extraction](Extractor.md), it only 
 Keep in mind that if you offset an order too far, you effectively alter it's role in the Pyblish ecosystem which may cause undefined behaviour.
 
 ```python
-class ValidateSecond(pyblish.api.Validator):
+class ValidateSecond(pyblish.api.InstancePlugin):
    # When does this plug-in run?
    order = 6
 ```
@@ -106,16 +106,14 @@ If you find yourself working with a large number of interdependent plug-ins, it 
 ```python
 import pyblish.api as pyblish
 
-ValidatorOrder = pyblish.Validator.order
+class DefaultValidator(pyblish.InstancePlugin):
+     order = pyblish.ValidatorOrder
 
-class DefaultValidator(pyblish.Validator):
-     order = ValidatorOrder + 0.5
+class PreValidator(pyblish.InstancePlugin):
+     order = pyblish.ValidatorOrder - 0.1
 
-class PreValidator(pyblish.Validator):
-     order = ValidatorOrder + 0.0
-
-class PostValidator(pyblish.Validator):
-     order = ValidatorOrder + 0.9
+class PostValidator(pyblish.InstancePlugin):
+     order = pyblish.ValidatorOrder + 0.1
 ```
 
 You can then replace the provided classes with your with your own.
