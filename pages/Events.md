@@ -12,6 +12,7 @@ This is a listing of default events in Pyblish.
 |:-----------------|:-------------------------------------|:------------
 | `published`      | `context`                            | Emitted upon finished publish, regardless of failure
 | `validated`      | `context`                            | Emitted upon finished validation
+| `pluginFailed`   | `plugin`, `context`, `instance`, `error` | Emitted once per failed plug-in.
 
 <br>
 
