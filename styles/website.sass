@@ -1,39 +1,31 @@
 html
-  font-size: 55%
+    font-size: 55%
 
 .book .book-body .page-wrapper .page-inner section.normal
-  table
-    // Shrink tables to their actual sizes
-    width: auto
-  ol, ul
-    margin-bottom: .85em
+    table
+        // Shrink tables to their actual sizes
+        width: auto
+    ol, ul
+        margin-bottom: .85em
 
-// Bug-fix
-// Lists have 0 margin-bottom, and p has 0 margin-top,
-// resulting in contact between the two.
+a 
+    outline: none
 
 code
-  color: #c7254e
+    color: #c7254e
 
 pre
-  border: 1px solid #EFEFEF
-  line-height: 1.1
-  code
-    color: rgb(51, 51, 51)
+    border: 1px solid #EFEFEF
+    line-height: 1.1
 
-// Make sidebar more like GitHub
+    code
+        color: rgb(51, 51, 51)
+
 nav
-  top: 30px
-  position: absolute
-
-ul.summary > li.chapter
-  padding-top: 10px
-
-// Make main body and sidebar the full length
-// of the page; 1 scrollbar
+    // Make sidebar more like GitHub
+    min-width: 250px
 
 .book
-    // Use inactive elements as categories
     .book-summary
         width: 250px
         border: none
@@ -41,34 +33,83 @@ ul.summary > li.chapter
 
         ul.summary
             position: static
-            top: 0
-            left: 10px
-            right: 10px
-            border-radius: 5px
-            border: 1px solid rgb(230, 230, 230)
-            padding: 5px
-            margin: 10px
+            padding: 20px 0px
+
+            a.custom-link
+                // Top-most link to Dashboard
+                text-transform: uppercase
+                font-size: 1.2em
+                font-weight: bold
+                padding: 0
 
             li
+                padding-left: 20px
+                
+                ul
+                    padding-left: 0px;
+
                 a
                     padding: 4px 10px
                     font-size: 0.9em
-
+                    outline: none
+                
                 span
                     cursor: auto
-                    opacity: 1
-                    font-weight: bold
+                    padding: 4px 10px
+                    font-size: 0.9em
                 
                 // Hide link to GitBook
                 a.gitbook-link, ul.summary > li.divider
                     display: none
-      
+
+                &.divider
+                    background: none
+
+                &.active > a
+                    color: #3794E0
+                    font-weight: bold
+                    letter-spacing: 1px
+                    background: #ECF5FF
+     
+        ul.summary > li > span
+            // Use inactive elements as categories
+            font-size: 1.2em
+            font-weight: bold
+            padding: 20px 0px
+            opacity: 1
+
     .book-body
         position: absolute
         top: 0
         left: 0
         overflow-y: visible
         right: 0
+
+        .navigation
+            // Default navigation is wrecked
+            // due to sidebar layout.
+            display: none // Temporarily disabled due to bug on IOS
+            position: fixed
+            top: 50%
+            transform: translate(0, -50%)
+            
+            &.navigation-prev
+                left: auto
+
+        .page-wrapper .page-inner section.normal blockquote
+            margin: 0
+            padding: 2px
+            color: #444444
+            border-left: 10px solid #439DD2
+            background: #D9EDF9
+            font-size: 0.9em
+            padding-top: 10px
+            padding-left: 8px
+            padding-right: 5px
+            margin-bottom: 0.85em
+            
+            p
+                margin-bottom: 5px
 
     .body-inner
         position: absolute
@@ -77,36 +118,16 @@ ul.summary > li.chapter
         overflow-y: visible
         right: 0
 
-    .page-wrapper .page-inner section.normal blockquote
-        color: #AAA
-        background: none
-        border-left: 5px solid #F1F1F1
-        padding-left: 8px
 
 .book .book-body, .book .book-body .body-inner
     bottom: auto;
 
 .modified-date
-  color: #ddd
-  text-align: right
-  padding-top: 50px
-  font-size: 0.8em
-
-#github
-  display: none
-
-.versions-select
-  div
+    color: #ddd
     text-align: right
-  select
-    -webkit-border-radius: 2px
-    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1)
-    -webkit-user-select: none
-    padding: 5px 10px
-    text-overflow: ellipsis
-    white-space: nowrap
-    width: 70px
+    padding-top: 50px
+    font-size: 0.8em
 
-// Hide numbering
 .summary .chapter b
-  display: none
+    // Hide numbering
+    display: none
