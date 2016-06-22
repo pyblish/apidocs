@@ -52,4 +52,5 @@
    * [Separator](pages/Separator.md)
    * [discover](pages/discover.md)
    * [sort](pages/sort.md)
+   * register_gui
 
