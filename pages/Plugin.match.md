@@ -18,7 +18,7 @@ Control how families are matched amongst plug-ins and instances.
 
 The way instances are associated with plug-ins are via their `families`.
 
-A plug-in may support one or more families, and instances matching one or more of these families are said to be associated with it.
+Instances and plug-ins may support one or more families, and instances matching one or more of these families are said to be associated with it.
 
 An instance may be associated via a plug-in in 1 of 3 ways.
 
