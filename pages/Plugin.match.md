@@ -1,8 +1,8 @@
-## Plugin.order
+## Plugin.match
 
-Control the order of execution.
+Control how families are matched amongst plug-ins and instances.
 
-> Since 1.4.3
+> Since 1.4.3 (see [release](https://github.com/pyblish/pyblish-base/releases/tag/1.4.3))
 
 <br>
 <br>
@@ -56,15 +56,14 @@ Decide whether your plug-in targets many unrelated families, or specialises in a
 
 **Example**
 
-In this example, `SpecificPlugin` is associated to instances whose family(ies) are a ubset of the supported families model and low. If the instance does not have at least both of these, it is not a match.
+In this example, `SpecificPlugin` is associated to instances whose family(ies) are a **subset** of the supported families model and low. If the instance does not have at least both of these, it is not a match.
 
-This is different from `GenericPlugin`, where only one of the families of an instance need to match any of the supported families of a plug-in.
+This is different from `GenericPlugin`, where only one of the families of an instance need to match any of the supported families of a plug-in. This is called **intersection**.
 
 ```python
 from pyblish import api
 
 class GenericPlugin(api.InstancePlugin):
-
   # Support both models and rigs
   families = ["model", "rig"]
 
@@ -73,7 +72,6 @@ class GenericPlugin(api.InstancePlugin):
     assert "parent_GRP" in instance
 
 class SpecificPlugin(api.InstancePlugin):
-
   # Support models, but only low-poly models
   families = ["model", "low"]
   match = api.Subset
@@ -93,70 +91,4 @@ class EdgeCasePlugin(api.InstancePlugin):
 
   def process(self, instance):
     assert "specialMember" in instance
-```
-
-<br>
-<br>
-<br>
-
-### Behavior
-
-Each order have a special meaning to Pyblish.
-
-> 0-1
-
-Implies [Collector](Collector.md). It is run first, sometimes automatically, such as when launching the Pyblish QML graphical user interface.
-
-> 1-2
-
-Implies [Validation](validator.md).
-
-> 2-3
-
-Implies [Extraction](Extractor.md). It *does not* run if any plug-in within range `1-2` has produced an error.
-
-> 3+
-
-Implies [Integration](Integration.md). Like [Extraction](Extractor.md), it only runs if validation was successful.
-
-<br>
-<br>
-<br>
-
-### Caution
-
-Keep in mind that if you offset an order too far, you effectively alter it's role in the Pyblish ecosystem which may cause undefined behaviour.
-
-```python
-class ValidateSecond(pyblish.api.InstancePlugin):
-   # When does this plug-in run?
-   order = 6
-```
-
-If you find yourself working with a large number of interdependent plug-ins, it is recommended that you subclass the super-classes and make ordering explicit.
-
-**pipeline/pyblish.py**
-
-```python
-import pyblish.api as pyblish
-
-class DefaultValidator(pyblish.InstancePlugin):
-     order = pyblish.ValidatorOrder
-
-class PreValidator(pyblish.InstancePlugin):
-     order = pyblish.ValidatorOrder - 0.1
-
-class PostValidator(pyblish.InstancePlugin):
-     order = pyblish.ValidatorOrder + 0.1
-```
-
-You can then replace the provided classes with your with your own.
-
-**/my_plugins/validate_something.py**
-
-```python
-import pipeline.pyblish
-
-class ValidateSomething(pipeline.pyblish.PostValidator):
-    ...
 ```
