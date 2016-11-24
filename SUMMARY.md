@@ -40,6 +40,7 @@
        * [.requires](pages/Plugin.requires.md)
        * [.actions](pages/Plugin.actions.md)
        * [.version](pages/Plugin.version.md)
+       * [.match](pages/Plugin.match.md)
    * [ContextPlugin](pages/ContextPlugin.md)
        * [.process](pages/ContextPlugin.process.md)
    * [InstancePlugin](pages/InstancePlugin.md)
