@@ -25,3 +25,4 @@ Plug-ins are snippets of code, discovered at run-time and defines the behaviour 
 | [order](Plugin.order.md)                 | float
 | [optional](Plugin.optional.md)           | bool
 | [requires](Plugin.requires.md)           | str
+| [match](Plugin.match.md)                 | int
