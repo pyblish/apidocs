@@ -2,7 +2,13 @@
 
 Control how families are matched amongst plug-ins and instances.
 
-> Since 1.4.3 (see [release](https://github.com/pyblish/pyblish-base/releases/tag/1.4.3))
+
+| Source     | Added
+|------------|---------
+|[Link][]    | [1.4.3][Added]
+
+[Link]: https://github.com/pyblish/pyblish-base/blob/6dc5781d6bb7b97fb7bc9df268f59e24a477c272/pyblish/plugin.py#L238
+[Added]: https://github.com/pyblish/pyblish-base/releases/tag/1.4.3
 
 <br>
 <br>
