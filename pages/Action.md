@@ -43,14 +43,7 @@ Attach any functionality to a plug-in and tailor it to a particular state; like 
 
 Each action have access to both the Context and it's parent plug-in via dependency injection, along with any other custom dependencies already available to plug-ins in general.
 
-Actions in QML are arranged in a menu with optional customisable groups and separators. Actions with any kind of implementation error show up as well, including a helpful error message for simplified debugging. 
-
-**Dependency Injected**
-
-These objects are available via dependency injection by default.
-
-- `context`: The global context
-- `plugin`: The parent plug-in
+Actions in the GUI - QML and Lite - are arranged in a menu with optional customisable groups and separators. Actions with any kind of implementation error show up as well, including a helpful error message for simplified debugging. 
 
 **Full list of features**
 
