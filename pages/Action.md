@@ -41,13 +41,13 @@ Attach any functionality to a plug-in and tailor it to a particular state; like 
 
 ![image](https://cloud.githubusercontent.com/assets/2152766/13439097/da8cf9da-dfe3-11e5-8db1-7c33f31046fd.png)
 
-Each action have access to both the Context and it's parent plug-in via dependency injection, along with any other custom dependencies already available to plug-ins in general.
+Each action is passed both the Context and it's parent plug-in at run-time and can be accessed via their argument signature, similar to plug-ins.
 
 Actions in QML are arranged in a menu with optional customisable groups and separators. Actions with any kind of implementation error show up as well, including a helpful error message for simplified debugging. 
 
-**Dependency Injected**
+**Argument signature**
 
-These objects are available via dependency injection by default.
+These objects are available via the argument signature.
 
 - `context`: The global context
 - `plugin`: The parent plug-in
@@ -57,7 +57,6 @@ These objects are available via dependency injection by default.
 - Per-plugin actions
 - Action API ~= Plug-in API, it is more or less a 1-1 match between their interfaces, including `process()` and `label`.
 - Standard logging and exception reporting, identical to plug-ins
-- Standard dependency injection still applies; can still inject custom functionality
 - Customisable icon per action, from [Awesome Icon][1]
 - Customisable availability
  - `all`: Always
@@ -92,7 +91,6 @@ class Validate(pyblish.api.InstancePlugin):
     ]
 
     def process(self, instance):
-        """The Context and parent Plug-in are available via dependency injection"""
         self.log.info("Standard log messages apply here.")
         raise Exception("Exceptions too.")
 ```
