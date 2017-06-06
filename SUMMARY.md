@@ -53,8 +53,8 @@
   * [Separator](pages/Separator.md)
   * [discover](pages/discover.md)
   * [sort](pages/sort.md)
-  * [register\_gui](register_gui.md)
-  * [register\_host](pages/registerhost.md)
+  * [register\_gui](pages/register_gui.md)
+  * [register\_host](pages/register_host.md)
 
 
 
