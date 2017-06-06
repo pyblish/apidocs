@@ -54,4 +54,5 @@
   * [discover](pages/discover.md)
   * [sort](pages/sort.md)
   * [register\_gui](register_gui.md)
+  * [register\_host](pages/registerhost.md)
 
