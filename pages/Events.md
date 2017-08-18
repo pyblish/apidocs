@@ -23,6 +23,7 @@ This is a listing of default events in Pyblish.
 |:-------------------|:-------------------------------------|:------------
 | `instanceToggled`  | `instance, new_value, old_value` | An Instance was toggled in the GUI
 | `pluginToggled`    | `plugin, new_value, old_value` | A Plug-in was toggled in the GUI
+| `pyblishQmlShown`    |  | When the Pyblish QML window is shown.
 
 <br>
 <br>
