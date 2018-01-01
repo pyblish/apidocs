@@ -45,9 +45,10 @@ for result in context.data["results"]:
 
 ### Full schema
 
-- https://github.com/pyblish/pyblish-rpc/blob/master/pyblish_rpc/schema/result.json
+- [result.json](https://github.com/pyblish/pyblish-qml/blob/master/pyblish_qml/ipc/schema/result.json)
+- [All schemas](https://github.com/pyblish/pyblish-qml/blob/master/pyblish_qml/ipc/schema)
 
-**Snapshot from [1e034](https://github.com/pyblish/pyblish-rpc/blob/6a075199c50c5c6a99e110505117c7d0d6d1e034/pyblish_rpc/schema/result.json)**
+**Snapshot from [1a350](https://github.com/pyblish/pyblish-qml/blob/1a35024c7aeccae858146cce62202d2b43b8c826/pyblish_qml/ipc/schema/result.json)**
 
 ```json
 {
