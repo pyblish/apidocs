@@ -10,7 +10,7 @@ Throw errors when assigning invalid data types.
 
 When enabled the values in both ```instance.data``` and ```context.data``` will be validated.
 
-```
+```python
 data = {
   "publish": True  # Boolean for GUIs to function.
 }
