@@ -10,6 +10,8 @@
   * [PYBLISH\_CLIENT\_PORT](pages/PYBLISH_CLIENT_PORT.md)
   * [PYBLISH\_ALLOW\_DUPLICATE\_PLUGINS](pages/PYBLISH_ALLOW_DUPLICATE_PLUGINS.md)
   * [PYBLISH\_GUI](pages/PYBLISH_GUI.md)
+  * [PYBLISH\_EARLY\_ADOPTER](pages/PYBLISH_EARLY_ADOPTER.md)
+  * [PYBLISH\_STRICT\_DATATYPES](pages/PYBLISH_STRICT_DATATYPES.md)
 * Ordering
   * [CollectorOrder](pages/CollectorOrder.md)
   * [ValidatorOrder](pages/ValidatorOrder.md)
