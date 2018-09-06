@@ -5,6 +5,7 @@
 * Data
   * [result](pages/result.md)
   * [Events](pages/Events.md)
+  * [Targets](pages/targets.md)
 * Environment Variables
   * [PYBLISHPLUGINPATH](pages/PYBLISHPLUGINPATH.md)
   * [PYBLISH\_CLIENT\_PORT](pages/PYBLISH_CLIENT_PORT.md)
@@ -55,6 +56,4 @@
   * [sort](pages/sort.md)
   * [register\_gui](pages/register_gui.md)
   * [register\_host](pages/register_host.md)
-
-
 
