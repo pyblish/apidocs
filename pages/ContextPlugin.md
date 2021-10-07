@@ -1,6 +1,6 @@
 ## ContextPlugin
 
-Process once, with [Context](context.md) as input.
+Process once, with [Context](Context.md) as input.
 
 | Source     | Added
 |------------|---------
@@ -26,7 +26,7 @@ Inherits [Plugin](Plugin.md)
 
 ### Usage
 
-The `ContextPlugin` is used for processing an entire scene or workspace. It is typically used during the collection portion of publishing, where data is identified and encapsulated in one or more [Instances](instance.md), but can in general be used for any processing that doesn't require access to any particular [Instance](instance.md).
+The `ContextPlugin` is used for processing an entire scene or workspace. It is typically used during the collection portion of publishing, where data is identified and encapsulated in one or more [Instances](Instance.md), but can in general be used for any processing that doesn't require access to any particular [Instance](Instance.md).
 
 <br>
 <br>
