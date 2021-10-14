@@ -2,6 +2,11 @@
 
 Tailor the circumstance upon which a particular action should be made available.
 
+ - `all`: Always
+ - `processed`: After plug-in has been processed
+ - `failed`: After plug-in has been processed, and failed
+ - `succeeded`: After plug-in has been processed, and succeeded
+
 <br>
 <br>
 <br>
