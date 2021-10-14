@@ -58,4 +58,4 @@ print context.data["currentFile"]
 ```
 
 [1]: https://github.com/pyblish/pyblish.api/wiki/register_plugin_path
-[2]: https://github.com/pyblish/pyblish.api/wiki/Plugin.hosts
+[2]: https://api.pyblish.com/pyblish.api/plugin/plugin.hosts
